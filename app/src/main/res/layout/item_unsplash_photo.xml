@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_marginBottom"
+    android:background="@color/white"
+    android:weightSum="5"
+    android:backgroundTint="@color/white">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_marginEnd"
+        android:layout_alignTop="@id/relative_layout"
+        android:layout_alignBottom="@id/relative_layout"
+        android:background="@drawable/item"
+        app:layout_constraintDimensionRatio="6:8"
+        app:cardCornerRadius="@dimen/layout_marginTop"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:backgroundTint="@color/white">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgImagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/imgImagePreview"
+            android:background="@drawable/gradient" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imgImagePreview"
+            android:layout_margin="@dimen/margin_layout"
+            android:drawablePadding="@dimen/bottom_margin"
+            android:ellipsize="end"
+            android:fontFamily="@font/headland_one"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_baseline_insert_emoticon_24"
+            tools:text="username" />
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context="com.codinginflow.imagesearchapp.ui.gallery.GalleryFragment"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nature"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_marginStart"
+        android:layout_marginTop="@dimen/margin"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintBottom_toTopOf="@id/car"
+        app:layout_constraintEnd_toStartOf="@id/bus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_1"
+            android:gravity="end"
+            android:paddingTop="@dimen/cardCornerRadius"
+            android:paddingEnd="@dimen/layout_marginStart"
+            android:paddingBottom="@dimen/cardCornerRadius"
+            android:text="@string/_3d"
+            android:textColor="@color/black"
+            android:textSize="@dimen/layout_marginStart"
+            tools:ignore="RtlSymmetry,SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_marginTop"
+            android:layout_marginTop="@dimen/layout_marginBottom"
+            app:layout_constraintDimensionRatio="3:4"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            android:src="@drawable/ic_camera" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/bus"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_marginStart"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/layout_marginStart"
+        android:layout_marginBottom="@dimen/layout_marginStart"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintBottom_toTopOf="@id/train"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/nature"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_1"
+            android:gravity="end"
+            android:paddingTop="@dimen/cardCornerRadius"
+            android:paddingEnd="@dimen/layout_marginStart"
+            android:paddingBottom="@dimen/cardCornerRadius"
+            android:text="@string/textures"
+            android:textColor="@color/black"
+            android:textSize="@dimen/layout_marginStart"
+            tools:ignore="RtlSymmetry,SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_marginTop"
+            android:layout_marginTop="@dimen/layout_marginBottom"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            android:src="@drawable/ic_photograph_pictures" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/car"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginStart"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintBottom_toTopOf="@id/trending"
+        app:layout_constraintEnd_toStartOf="@id/train"
+        app:layout_constraintStart_toStartOf="@id/nature"
+        app:layout_constraintTop_toBottomOf="@id/nature">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_1"
+            android:gravity="end"
+            android:paddingTop="@dimen/cardCornerRadius"
+            android:paddingEnd="@dimen/layout_marginStart"
+            android:paddingBottom="@dimen/cardCornerRadius"
+            android:text="@string/nature"
+            android:textColor="@color/black"
+            android:textSize="@dimen/layout_marginStart"
+            tools:ignore="RtlSymmetry,SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_marginTop"
+            android:layout_marginTop="@dimen/layout_marginBottom"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            android:src="@drawable/ic_palm_s" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/train"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_marginStart"
+        android:layout_marginTop="@dimen/layout_marginStart"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintEnd_toEndOf="@id/bus"
+        app:layout_constraintStart_toEndOf="@id/car"
+        app:layout_constraintTop_toBottomOf="@id/bus">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_1"
+            android:gravity="end"
+            android:paddingTop="@dimen/cardCornerRadius"
+            android:paddingBottom="@dimen/cardCornerRadius"
+            android:paddingEnd="@dimen/layout_marginStart"
+            android:text="@string/food"
+            android:textColor="@color/black"
+            android:textSize="@dimen/layout_marginStart"
+            tools:ignore="RtlSymmetry,SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_marginTop"
+            android:layout_marginTop="@dimen/layout_marginBottom"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            android:src="@drawable/ic_ice_cream" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/trending"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginStart"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintEnd_toStartOf="@id/animals"
+        app:layout_constraintStart_toStartOf="@id/car"
+        app:layout_constraintTop_toBottomOf="@id/car">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_1"
+            android:gravity="end"
+            android:paddingTop="@dimen/cardCornerRadius"
+            android:paddingBottom="@dimen/cardCornerRadius"
+            android:paddingEnd="@dimen/layout_marginStart"
+            android:text="@string/travel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/layout_marginStart"
+            tools:ignore="RtlSymmetry,SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_marginTop"
+            android:layout_marginTop="@dimen/layout_marginBottom"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            android:src="@drawable/ic_travel" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/animals"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_marginStart"
+        android:layout_marginLeft="@dimen/layout_marginTop"
+        android:layout_marginTop="@dimen/layout_marginStart"
+        android:layout_marginBottom="@dimen/layout_marginStart"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintEnd_toEndOf="@id/train"
+        app:layout_constraintStart_toEndOf="@id/trending"
+        app:layout_constraintTop_toBottomOf="@id/train"
+        tools:ignore="RtlHardcoded">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_1"
+            android:gravity="end"
+            android:paddingTop="@dimen/cardCornerRadius"
+            android:paddingEnd="@dimen/layout_marginStart"
+            android:paddingBottom="@dimen/cardCornerRadius"
+            android:text="@string/animals"
+            android:textColor="@color/black"
+            android:textSize="@dimen/layout_marginStart"
+            tools:ignore="RtlSymmetry,SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_marginTop"
+            android:layout_marginTop="@dimen/layout_marginBottom"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            android:src="@drawable/ic_teddy_bear" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_marginBottom"
+        android:layout_marginTop="@dimen/layout_marginBottom"
+        android:layout_marginEnd="@dimen/layout_marginBottom"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:padding="@dimen/layout_marginBottom"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        app:spanCount="2"
+        tools:ignore="MissingConstraints"
+        tools:listitem="@layout/item_unsplash_photo" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/layout_marginEnd"
+        android:layout_marginBottom="@dimen/layout_marginBottom_1"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_retry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_1"
+        android:text="@string/results_could_not_be_loaded"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="119dp"
+        tools:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/top"
+        android:text="@string/retry"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_error"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_results_found_for_this_query"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button_retry"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_error"
+        app:layout_constraintVertical_bias="0.388"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/by_ksenia_ladoshko"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/guide" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="@dimen/space"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="@dimen/margin_top"
+        app:layout_constraintTop_toBottomOf="@id/trending"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"
+        android:layout_marginTop="@dimen/space_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="185dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

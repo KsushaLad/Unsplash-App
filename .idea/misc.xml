@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/button.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/gradient.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/gradient_1.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/ic_error.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/ic_search.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/ic_user.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/item.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/drawable/point.xml" value="0.5697916666666667" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/layout/activity_main.xml" value="0.3432971014492754" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/layout/fragment_details.xml" value="0.3432971014492754" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/layout/fragment_gallery.xml" value="0.3432971014492754" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/layout/item_unsplash_photo.xml" value="0.334765625" />
+        <entry key="..\:/UNSPLASH/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.3612938596491228" />
+        <entry key="..\:/UNSPLASH_MVVM-main/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Unsplash-api/app/src/main/res/layout/activity_main.xml" value="0.27853260869565216" />
+        <entry key="..\:/Unsplash-api/app/src/main/res/layout/fragment_details.xml" value="0.27853260869565216" />
+        <entry key="..\:/Unsplash-api/app/src/main/res/layout/fragment_gallery.xml" value="0.2674772036474164" />
+        <entry key="..\:/Unsplash-api/app/src/main/res/layout/item_unsplash_photo.xml" value="0.27853260869565216" />
+        <entry key="..\:/Unsplash-api/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.27853260869565216" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/drawable/button.xml" value="0.5703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/drawable/gradient.xml" value="0.5703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/drawable/gradient_1.xml" value="0.5703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.5703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/drawable/item.xml" value="0.5703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/drawable/point.xml" value="0.5703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/layout/fragment_details.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/layout/fragment_gallery.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/layout/item_unsplash_photo.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-MVVM-main/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/gradient.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/gradient_1.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_cake.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_camera.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_ice_cream.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_palm.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_palm_s.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_panda.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_pen.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_photograph_pictures.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_teddy_bear.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_travel.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_user.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/ic_wave.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/item.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/drawable/point.xml" value="0.42277992277992277" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/layout/activity_main.xml" value="0.415625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/layout/fragment_details.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/layout/fragment_gallery.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/layout/item_unsplash_photo.xml" value="0.248828125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UNSPLASH-review/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/button.xml" value="0.44351851851851853" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/gradient.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/gradient_1.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/ic_error.xml" value="0.44351851851851853" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/ic_search.xml" value="0.44351851851851853" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/ic_user.xml" value="0.44351851851851853" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/item.xml" value="0.44351851851851853" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/drawable/point.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/layout/fragment_details.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/layout/fragment_gallery.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/layout/item_unsplash_photo.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Unsplash-api-second_review/app/src/main/res/menu/menu_gallery.xml" value="0.5541666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

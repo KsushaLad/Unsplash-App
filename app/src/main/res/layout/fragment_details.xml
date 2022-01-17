@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codinginflow.imagesearchapp.ui.details.DetailsFragment"
+    android:backgroundTint="@color/white"
+    android:background="@color/white"
+    android:padding="@dimen/padding">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgImagePreview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width_card"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/layout_marginStart"
+        android:layout_marginTop="@dimen/layout_marginStart"
+        android:layout_marginEnd="@dimen/layout_marginStart"
+        android:adjustViewBounds="true"
+        android:background="@drawable/item"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@id/text_view_creator"
+        app:layout_constraintDimensionRatio="7:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher_round" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_creator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin"
+        android:fontFamily="@font/headland_one"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/set"
+        app:layout_constraintTop_toBottomOf="@+id/imgImagePreview"
+        app:layout_constraintVertical_bias="0.064"
+        tools:layout_editor_absoluteX="5dp"
+        tools:text="@string/photo_by_XYZ_on_Unsplash"
+        tools:visibility="visible" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:background="@drawable/button"
+        android:paddingBottom="@dimen/cardCornerRadius"
+        android:paddingStart="@dimen/cardCornerRadius"
+        android:paddingEnd="@dimen/cardCornerRadius"
+        android:fontFamily="@font/headland_one"
+        android:padding="@dimen/space_1"
+        android:text="@string/wallpaper"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_creator"
+        tools:ignore="MissingConstraints,ObsoleteLayoutParam" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

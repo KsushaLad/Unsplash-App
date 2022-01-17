@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardView_width">150dp</dimen>
+    <dimen name="cardView_height">40dp</dimen>
+    <dimen name="cardCornerRadius">10dp</dimen>
+    <dimen name="layout_marginStart">15dp</dimen>
+    <dimen name="layout_marginTop">20dp</dimen>
+    <dimen name="layout_marginBottom">5dp</dimen>
+    <dimen name="imageview_width">30dp</dimen>
+    <dimen name="textSize">15sp</dimen>
+    <dimen name="layout_marginEnd">0dp</dimen>
+    <dimen name="layout_marginBottom_1">200dp</dimen>
+    <dimen name="layout_marginTop_1">372dp</dimen>
+    <dimen name="layout_editor_absoluteX">372dp</dimen>
+    <dimen name="top">36dp</dimen>
+    <dimen name="top_margin">45dp</dimen>
+    <dimen name="imageview_height">450dp</dimen>
+    <dimen name="bottom_margin">4dp</dimen>
+    <dimen name="margin_top">35dp</dimen>
+    <dimen name="margin">25dp</dimen>
+    <dimen name="card_height">250dp</dimen>
+    <dimen name="margin_layout">8dp</dimen>
+    <dimen name="top_margin_1">32dp</dimen>
+    <dimen name="margin_top_1">116dp</dimen>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="width_card">0dp</dimen>
+    <dimen name="space">100dp</dimen>
+    <dimen name="space_1">2dp</dimen>
+    <dimen name="space_3">3dp</dimen>
+    <dimen name="radius">8dp</dimen>
+    <dimen name="width">1dp</dimen>
+    <dimen name="wigth_smile">24dp</dimen>
+    <dimen name="radiuss">900dp</dimen>
+    <dimen name="guide">195dp</dimen>
+
+</resources>
