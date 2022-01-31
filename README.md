@@ -1,6 +1,6 @@
 #  :notebook_with_decorative_cover::open_book: **UNSPLASH-MVVM**
 ## An application where you can find wallpapers for your smartphone for every taste.
-![Screenshot](Wall[a[er.png)
+![Screenshot](Wallpaper_app.png)
 ## This project uses:
 * Kotlin;
 * MVVM architecture;
